@@ -1,4 +1,4 @@
-function puzzle(level = 'easy', Math = { random: () => {} }) {
+function puzzle(level, Math = { random: () => {} }) {
   levels = {
     'easy' : 1,
     'medium' : .1,
@@ -17,3 +17,5 @@ function puzzle(level = 'easy', Math = { random: () => {} }) {
   }
   return true;
 }
+
+console.log(puzzle('easy'));
